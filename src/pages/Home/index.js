@@ -15,7 +15,6 @@ function Home() {
   const [isSearchMode, setIsSearchMode] = React.useState(true);
 
   useEffect(() => {
-    console.log("conmingf gere")
     if(isSearchMode) return;
     handleSubmit();
   }, [name]);

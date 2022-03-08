@@ -24,6 +24,7 @@ function AddSong() {
     if (id.includes("youtu.be")) {
       actualId = id.split("/").pop().slice(0, 11);
     }
+    return actualId;
   };
 
   return (
