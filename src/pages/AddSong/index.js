@@ -1,19 +1,19 @@
 import "./index.scss";
-import Song from "../../models/Song";
-import songsData from "../../data";
+// import Song from "../../models/Song";
+// import songsData from "../../data";
 import { useState } from "react";
 
 function AddSong() {
   const [id, setId] = useState("");
-  const [timestamp, setTimestamp] = useState("");
+  // const [timestamp, setTimestamp] = useState("");
 
   const handleIdChange = (e) => {
     setId(e.target.value);
   };
 
-  const handleTimeStampChange = (e) => {
-    setTimestamp(e.target.value);
-  };
+  // const handleTimeStampChange = (e) => {
+  //   setTimestamp(e.target.value);
+  // };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -43,7 +43,7 @@ function AddSong() {
           id="video-timestamp"
           placeholder="Enter the starting timestamp (Optional)"
           className="input-field"
-          onChange={handleTimeStampChange}
+          // onChange={handleTimeStampChange}
         ></input>
         <button type="submit" className="button">
           <i className="fas fa-plus button"></i>
