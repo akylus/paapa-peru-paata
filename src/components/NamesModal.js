@@ -1,4 +1,4 @@
-import "./index.scss";
+import "./index.css";
 import Modal from "react-bootstrap/Modal";
 function NamesModal(props) {
   const handleClick = (song) => {

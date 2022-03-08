@@ -1,4 +1,4 @@
-import "./App.scss";
+import "./App.css";
 import Home from "./pages/Home";
 // import AddSong from "./pages/AddSong";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -13,7 +13,9 @@ function App() {
     //     </Routes>
     //   </div>
     // </Router>
-    <Home />
+    <div className="App">
+      <Home />
+    </div>
   );
 }
 

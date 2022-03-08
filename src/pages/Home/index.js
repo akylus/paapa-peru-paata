@@ -1,4 +1,4 @@
-import "./index.scss";
+import "./index.css";
 import Song from "../../models/Song";
 import songsData from "../../data";
 import React, { useState } from "react";
