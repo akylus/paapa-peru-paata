@@ -1,0 +1,37 @@
+.name-modal-body {
+    text-align: center;
+    background: #2C5364;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    color: white;
+    border: none;
+}
+.name-modal-header {
+    text-align: center;
+    background: #2C5364;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none !important;
+    color: white;
+    padding: 0 !important;
+}
+
+.btn-close {
+    position: relative;
+    bottom: 25px;
+    right: 10px;
+    color: grey !important;
+}
+
+.modal-title {
+    position: relative;
+    top: 10px;
+}
+
+.modal-content {
+    border: none;
+}
