@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/paapa-peru-paata/static/css/main.c422395f.css",
-    "main.js": "/paapa-peru-paata/static/js/main.27faa058.js",
+    "main.css": "/paapa-peru-paata/static/css/main.aa576730.css",
+    "main.js": "/paapa-peru-paata/static/js/main.f4b89411.js",
     "index.html": "/paapa-peru-paata/index.html",
-    "main.c422395f.css.map": "/paapa-peru-paata/static/css/main.c422395f.css.map",
-    "main.27faa058.js.map": "/paapa-peru-paata/static/js/main.27faa058.js.map"
+    "main.aa576730.css.map": "/paapa-peru-paata/static/css/main.aa576730.css.map",
+    "main.f4b89411.js.map": "/paapa-peru-paata/static/js/main.f4b89411.js.map"
   },
   "entrypoints": [
-    "static/css/main.c422395f.css",
-    "static/js/main.27faa058.js"
+    "static/css/main.aa576730.css",
+    "static/js/main.f4b89411.js"
   ]
 }
